@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d51254c2e9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="index">
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div>
+                    <img src="Images/logoname.png" class="logo1" alt="logo">
+                </div>
+                <ul id="sidemenu">
+                    <b>
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#languages">LANGUAGE</a></li>
+                        <li><a href="#project">PROJECT</a></li>
+                        <li><a href="gallery.html"> GALLERY</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </b>
+
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+
+
+            <div class="home" id="home">
+                <div class="max-width">
+                    <div class="home-content">
+                        <div class="text-1">Hello, my name is</div>
+                        <div class="text-2">Aniket Kamble</div>
+                        <div class="text-3">And I'm a <span class="auto-type"></span></div>
+                        <a href="#">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!
+        ----------------------------------------------------------ABOUT------------------------------------------------------>
+
+        <div class="about" id="about">
+            <div class="container1">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="/Images/myphoto.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <b>
+                            <p>___________<span>Who I Am</span>___________</p>
+                        </b><br><br><br>
+                        <h3 class="text-3"> I'm Aniket and I'm a <span class="auto-type-2"></span></h3>
+                        <p class="txt">I am Aniket Suresh Kamble i am belongs to sangola, Tal-Sangola, Dist-Solapur.
+                            I am currently pursuing Mcs from Sangola College Sangola in solpur university,
+                            I have completed Bcs from Sangola College Sangola, I am goal oriented person ,
+                            I have great interest many things but specifically great interest in reading books as well
+                            as playing cricket, also kabaddhi.
+                        </p>
+
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')"> Education</p>
+                        </div>
+
+                        <div class="tab-contents  active-tab " id="skills">
+                            <div class="bars">
+                                <div class="info">
+                                    <ul>
+                                        <li><span>JAVA</span>
+                                            <span>75%</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="line java"></div>
+                            </div>
+
+
+
+                            <div class="bars">
+                                <div class="info">
+                                    <ul>
+                                        <li><span>C</span>
+                                            <span>60%</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="line c"></div>
+                            </div>
+
+
+                            <div class="bars">
+                                <div class="info">
+                                    <ul>
+                                        <li><span>C++</span>
+                                            <span>55%</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="line cplus"></div>
+                            </div>
+
+
+                            <div class="bars">
+                                <div class="info">
+                                    <ul>
+                                        <li><span>HTML</span>
+                                            <span>85%</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="line html"></div>
+                            </div>
+
+
+                            <div class="bars">
+                                <div class="info">
+                                    <ul>
+                                        <li><span>CSS</span>
+                                            <span>65%</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="line css"></div>
+                            </div>
+
+                            <div class="bars">
+                                <div class="info">
+                                    <ul>
+                                        <li><span>JavaScript</span>
+                                            <span>40%</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="line javascript"></div>
+                            </div>
+
+
+                            <div class="bars">
+                                <div class="info">
+                                    <ul>
+                                        <li><span>MYSQL</span>
+                                            <span>50%</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="line mysql"></div>
+                            </div>
+                        </div>
+
+                        <div class="tab-contents  " id="education">
+
+                            <ul>
+                                <li><span>10th</span><br> SANGOLA VIDYAMANDIR PRASHALA, SANGOLA.</li>
+                                <li><span>12th</span><br> SANGOLA VIDYAMANDIR JR.COLLEGE, SANGOLA.</li>
+                                <li><span>BCS</span><br> SANGOLA MAHAVIDYALAY SANGOLA.</li>
+                                <li><span>MCS</span><br> SANGOLA MAHAVIDYALAY SANGOLA.</li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--------------------------------------------------SERVICES------------------------------------------------------------->
+
+
+
+
+        <div id="languages">
+            <div class="container2">
+                <h1 class="sub-title">Language Information </h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Java</h2>
+                        <p> Java is a popular programming language, created in 1995.
+                            It is owned by Oracle, and more than 3 billion devices run Java.
+                            Java is a general-purpose, class-based, object-oriented programming language </p>
+                        <a href="java.html">Learn more...</a>
+                    </div>
+
+
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>C</h2>
+                        <p> C is a general-purpose computer programming language. It was created in
+                            the 1970s by Dennis Ritchie, and remains very widely used and influential.
+                        </p>
+                        <a href="c.html">Learn more...</a>
+                    </div>
+
+
+
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>C++</h2>
+                        <p>C++ is a general-purpose programming language and is widely used nowadays for competitive
+                            programming. It has imperative, object-oriented and generic programming features.</p>
+                        <a href="c++.html">Learn more...</a>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>Html</h2>
+                        <p>HTML stands for Hyper Text Markup Language
+                            HTML is the standard markup language for creating Web pages
+                            HTML describes the structure of a Web page
+                            HTML consists of a series of elements</p>
+                        <a href="html.html">Learn more...</a>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>Css</h2>
+                        <p>CSS stands for Cascading Style Sheets
+                            CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+                            CSS saves a lot of work. It can control the layout of multiple web pages </p>
+                        <a href="css.html">Learn more...</a>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>JavaScript</h2>
+                        <p>JavaScript is a lightweight, interpreted programming language. It is designed for creating
+                            network-centric applications. It is complimentary to and integrated with Java.
+                        </p>
+                        <a href="javascript.html">Learn more...</a>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>Mysql</h2>
+                        <p> MySQL is currently the most popular database management system software used for managing
+                            the relational
+                            database. It is open-source database software, which is supported by Oracle Company.</p>
+                        <a href="mysql.html">Learn more...</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-----------------------------------------------------------My College Project-------------------------------------------------->
+
+
+
+
+
+        <div class="project" id="project">
+            <div class="container3">
+                <h1 class="sub-title">My Work</h1>
+                <div class="project-list">
+                    <div class="work">
+                        <img src="Images/Project-1.png">
+                        <div class="layer">
+                            <h3>PHONEBOOK APP</h3>
+                            <P>The phonebook application works specifically for adding phone number & store contact
+                                details,
+                                In this application front end used Adv Java & backend used Mysql.</P>
+                            <a href="https://github.com/Aniketkamble06/phonebook-app/tree/coder"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Images/Project-2.png">
+                        <div class="layer">
+                            <h3 class="head">SNAKE GAME</h3>
+                            <P>The Snake Game is a simple game you can make using the basics of JavaScript, HTML & CSS.
+                                The
+                                basic goal is to navigate a snake and eat as many apples as possible without touching
+                                the walls or the snake's body</P>
+                            <a href="https://github.com/Aniketkamble06/Snake-game/tree/master"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Images/Project-3.png">
+                        <div class="layer">
+                            <h3>FOOD RESTARURNT</h3>
+                            <P>This an online restro for ordering food and drinks. This simple yet responsive site is
+                                designed in HTML and CSS validated with JS. To make it more reactive bootstrap is used
+                                to make it more responsive</P>
+                            <a href="https://github.com/Aniketkamble06/Food-Restaurants/tree/coder"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Images/Project-4.png">
+                        <div class="layer">
+                            <h3>STOPWATCH</h3>
+                            <P>Stopwatch watch is like a watch that shows us the time from zero. Stopwatch is mostly
+                                used in the competition or personal use to know that time we took to do some activities.
+                                I have used to make this stopwatch using HTML CSS and javascript.
+                            </P>
+                            <a href="https://github.com/Aniketkamble06/StopWatch/tree/master"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn" href="#">See more...</a>
+
+            </div>
+        </div>
+
+
+
+        <!---------------------------------------------------------------Contact -------------------------------------------------->
+
+
+
+
+        <div id="contact">
+            <div class="container4">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title"> CONTACT ME</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>aniketkamble25875@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-square-phone"></i>8698179880</p>
+                        <div class="social-icons">
+                            <a class="facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a class="instagram" href="https://www.instagram.com/aniketkamble195/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a class="github" href="https://github.com/Aniketkamble06"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a class="linkedin" href="https://www.linkedin.com/in/aniket-kamble-b99a12255"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+
+                        </div>
+                        <a href="Images/ANIKET RESUME 2.pdf" download class="btn btn2">Download CV</a>
+
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder=" Enter Your Name" required>
+                            <input type="email" name="Email" placeholder="Enter Your Email" required>
+                            <textarea name="Message" rows="6" placeholder=" Enter Your Message"></textarea>
+                            <button type="submit" class="btn btn2">SUBMIT</button>
+
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maps">
+                <p><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15225.874245516097!2d75.18131012740783!3d17.43727350877829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc6a7ad31ab73c3%3A0x16bd05730c981724!2sSangola%2C%20Maharashtra%20413307!5e0!3m2!1sen!2sin!4v1669645754552!5m2!1sen!2sin"
+                        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe> </p>
+            </div>
+
+
+
+            <div class="copyright">
+                <p>......Copyright<span>&copy;</span>2022 @niket_<i class="fas fa-heart"></i>_ All Rights
+                    Reserved...... </p>
+            </div>
+
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
