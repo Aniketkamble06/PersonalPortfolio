@@ -1099,7 +1099,6 @@ ___________________________________________________________________only_________
 
       width: 40%;
       height: 100vh;
-
       margin-left: 60%;
       padding: 0;
 
@@ -1108,10 +1107,8 @@ ___________________________________________________________________only_________
 
    .home .max-width {
 
-
-      margin-top: 55%;
-      margin-left: 3%;
-
+      margin-top: 65%;
+      margin-left: 3%; 
 
    }
 
@@ -1643,8 +1640,8 @@ ___________________________________________________________________only_________
 
 
 
-   .pic {
-      height: 170px;
+  .pic {
+      height: 140px;
       width: 100%;
    }
 
@@ -1653,25 +1650,28 @@ ___________________________________________________________________only_________
       height: 100%;
    }
 
-
+   .containers h1{
+      font-size: 27px;
+   }
 
    .top-content h3 {
       height: 100%;
       line-height: 60px;
-      padding: 0 5px;
-      font-size: 12px;
+      padding: 0 0px;
+      font-size: 11px;
+     
    }
 
 
    label {
-      padding: 0 5px;
+      padding:0  5px;
       height: 100%;
-      margin: 0 -3px;
+      margin: 0 -1%;
       line-height: 60px;
-      font-size: 12px;
+      font-size: 9px;
       font-weight: 500;
+     
    }
-
 
 
 
