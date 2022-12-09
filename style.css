@@ -1708,6 +1708,50 @@ justify-content:center;
    font-weight: 500;
 
 }
+   
+   
+   
+  .lang img.javalogo{
+   width: 15%;
+
+}
+
+
+.lang img.cl{
+   width: 70%;
+}
+
+.lang img.clh{
+   width: 50%;
+}
+.lang img.clogo {
+   width: 35%;
+}
+
+.lang img.cpplogo{
+   width: 17%;
+}
+
+.lang img.cpph{
+  width: 90%;
+}
+
+.lang img.htmllogo{
+   width: 15%;
+}
+
+.lang img.csslogo{
+   width: 15%;
+}
+
+.lang img.javascriptlogo{
+   width:20% ;
+}
+
+
+.lang img.mysqllogo{
+   width: 30%;
+}
 
 
 
